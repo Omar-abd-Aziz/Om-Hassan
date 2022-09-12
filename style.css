@@ -1,0 +1,160 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root
+{
+    --main-color: black;
+    --one-color: #198754;
+}
+
+
+
+
+#btnup
+{
+  border: none;
+  padding: 5px;
+  border-radius: 30px;
+  font-size: 30px;
+  cursor: pointer;
+  background: transparent;
+  color: white;
+  position: fixed;
+  right: 1%;
+  top: 90%;
+  display: none;
+  z-index: 1;
+  user-select: none;
+}
+
+
+
+@media (max-width: 450px) {
+  body > div.home-dad > div > div > h4
+  {
+    font-size: 15px;
+  }
+
+  body > div.home-dad > div > div > h4 > span
+  {
+    font-size: 17px !important;
+  }
+
+  body > div.footer-dad.bg-dark.card-footer > div > h5
+  {
+    font-size: 15px !important;
+  }
+
+  #contact > div > h2.text-primary
+  {
+    font-size: 18px !important;
+  }
+
+  #about > div > div > div > h3
+  {
+    font-size: 16px !important;
+  }
+}
+
+
+
+.div-center
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.br-50
+{
+  border-radius: 50%;
+}
+
+
+
+
+.navbar-nav
+{
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.nav-link
+{
+  border-bottom: 2px solid transparent;
+  border-radius: 20%;
+}
+
+
+.nav-link:hover
+{
+  border-bottom: 2px solid var(--main-color);
+  border-radius: 20%;
+}
+
+
+
+
+
+.card-title
+{
+  font-size: 22px;
+  color: var(--main-color) !important;
+}
+
+.text-color
+{
+  color: var(--main-color);
+}
+
+
+
+
+
+
+
+
+.services-dad
+{
+  padding: 0 0 50px 0;
+}
+
+
+
+.my-xxl-3
+{
+  padding: 20px 0;
+}
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+
+
+@media (max-width: 450px) {
+
+body > div.home-dad > div > div > h1
+{
+font-size: 21px;
+}
+
+}
